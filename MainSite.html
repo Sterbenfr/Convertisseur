@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Reset.css">
+    <link rel="stylesheet" href="Design.css">
+    <title>Convertisseur</title>
+</head>
+
+<body>
+    <div class="Head">
+        <h1>Convertisseur</h1>
+    </div>
+
+    <div class="wrapper">
+        <div class="convertisseur">
+            <input type="number" name="De-Value" id="De-Value" value="1">
+            <div class="conv-input">
+                <select name="De-Unit" id="De-Unit">
+                    <option value="km">Kilomètre</option>
+                    <option value="m" selected>Mètre</option>
+                    <option value="cm">Centimètre</option>
+                    <option value="mm">Millimètre</option>
+                    <option value="Tour Eiffel"> Tour Eiffel</option>
+                    <option value="Homme">Homme</option>
+                    <option value="Smartphone">Smartphone</option>
+                    <option value="Ariane 5">Ariane 5</option>
+                    <option value="Golden Gate">Golden Gate</option>
+                </select>
+            </div>
+            <img src="/Img/fleche-droite.png" alt="Icon-Flèche">
+            <div class="conv-input">
+                <select name="Vers-Unit" id="Vers-Unit">
+                    <option value="km">Kilomètre</option>
+                    <option value="m">Mètre</option>
+                    <option value="cm" selected>Centimètre</option>
+                    <option value="mm">Millimètre</option>
+                    <option value="Tour Eiffel"> Tour Eiffel</option>
+                    <option value="Homme">Homme</option>
+                    <option value="Smartphone">Smartphone</option>
+                    <option value="Ariane 5">Ariane 5</option>
+                    <option value="Golden Gate">Golden Gate</option>
+                </select>
+            </div>
+        </div>
+        <div class="Buttons">
+            <button class="button" id="Convert-Button"><span class="text">Convertir</span></button>
+            <button class="button" id="Invert-Unit"> <span class="text">Inverser</span></button>
+        </div>
+        <div class="result">
+            <input type="number" name="Result-Value" id="Result-Value" disabled value="0">
+        </div>
+
+        <div class="Add">
+            <h2>Ajouer une unitée</h2>
+        </div>
+
+
+        <div class="Ajouter">
+
+            <div class="Add-Input">
+                <input type="text" name="Add-Unit" id="Add-Unit" required placeholder="Name of the new Unit">
+                <input type="number" name="Add-Meter" id="Add-Meter" required
+                    placeholder="Size of the new unit in meter">
+                <input type="text" name="Add-Link" id="Add-Link" required placeholder="Link to the img representing">
+            </div>
+
+            <div class="Add-button">
+                <button class="button" id="Add-New-Unit"><span class="text">Ajouter l'unitée</span> </button>
+            </div>
+        </div>
+
+
+        <div class="Image-container">
+            <div class="Changing-Img">
+                <div class="De-Img" id="De-Img"></div>
+                <div class="Vers-Img" id="Vers-Img"> </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="Calculator.js"></script>
+</body>

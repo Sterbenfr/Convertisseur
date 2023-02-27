@@ -1,0 +1,234 @@
+body {
+    background-color: rgba(24, 5, 77, 0.815);
+    display: block;
+}
+
+h1 {
+    font-size: 9rem;
+}
+
+h2 {
+    font-size: 6rem;
+}
+
+.Add {
+    display: block;
+    width: 94%;
+    text-align: center;
+    padding: 3%;
+    background-color: rgb(5, 6, 45);
+    text-shadow: rgb(144, 105, 218) 1px 0 2rem;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.842);
+    color: rgb(189, 209, 226);
+}
+
+.Head {
+    display: block;
+    width: 94%;
+    text-align: center;
+    color: rgb(189, 209, 226);
+    padding: 3%;
+    background-color: rgb(5, 6, 45);
+    text-shadow: rgb(144, 105, 218) 1px 0 2rem;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.842);
+}
+
+.Ajouter {
+    display: block;
+}
+
+.convertisseur {
+    display: flex;
+    padding: 2%;
+    padding-top: 10%;
+    width: 94%;
+    justify-content: center;
+}
+
+.convertisseur input {
+    transition: width 0.4s ease-in-out;
+    text-align: right;
+    width: auto;
+    background-color: #9b9797;
+    color: azure;
+    font-size: 2rem;
+    height: 6rem;
+    box-shadow: 0 5px 25px rgba(108, 66, 185, 0.753);
+    margin-right: 2%;
+    border-radius: 5%;
+    border: 3px solid #1f1e1e;
+}
+
+
+
+img {
+    width: 10rem;
+    height: 7rem;
+}
+
+.convertisseur input:focus {
+    width: 35%;
+    border: 3px solid #1f1e1e;
+    text-align: left;
+    background-image: linear-gradient(144deg, #ba65f7, #958add 50%, #63d6df);
+}
+
+.conv-input select {
+    border-radius: 3%;
+    background-color: #747171;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    width: 25rem;
+    font-size: 2rem;
+    box-shadow: 0 5px 25px rgba(108, 66, 185, 0.74);
+    height: 6rem;
+    border: 3px solid #1f1e1e;
+}
+
+.conv-input select:focus {
+    background-image: linear-gradient(144deg, #00DDEB, #5B42F3 50%, #AF40FF);
+}
+
+.conv-input select option {
+    padding: 30px;
+    background-color: #6e62c0;
+}
+
+.Buttons {
+    display: flex;
+    padding: 2%;
+    width: 94%;
+    justify-content: center;
+}
+
+.button {
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 2rem;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    height: 100%;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.button:active,
+.button:hover {
+    outline: 0;
+}
+
+.button span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+
+.button:hover span {
+    background: none;
+}
+
+@media (min-width: 768px) {
+    .button {
+        font-size: 24px;
+        min-width: 196px;
+    }
+}
+
+.result {
+    display: flex;
+    padding: 2%;
+    width: 94%;
+    justify-content: center;
+
+}
+
+:disabled {
+    text-align: center;
+    height: 6rem;
+    font-family: Phantomsans, sans-serif;
+    font-size: 5rem;
+    background-color: rgb(64, 166, 192);
+}
+
+.Add-Input {
+    display: flex;
+    padding: 2%;
+    width: 94%;
+    justify-content: center;
+}
+
+.Image-container {
+    display: flex;
+    padding: 5%;
+    width: 94%;
+    justify-content: center;
+    max-height: 500px;
+}
+
+.Add-Input input {
+    transition: width 0.4s ease-in-out;
+    text-align: center;
+    width: 35rem;
+    background-color: #9b9797;
+    color: azure;
+    font-size: 2rem;
+    height: 4rem;
+    box-shadow: 0 5px 25px rgba(108, 66, 185, 0.753);
+    margin-right: 2%;
+    border-radius: 5%;
+    border: 3px solid #1f1e1e;
+}
+
+.Add-button {
+    display: flex;
+    justify-content: center;
+}
+
+.Image-container {
+    display: flex;
+    justify-content: center;
+    width: 94%;
+}
+
+.Changing-Img {
+    display: flex;
+}
+
+.Image-container img {
+    width: auto;
+    height: auto;
+}
+
+.Image-container .De-Img {
+    width: auto;
+    height: auto;
+    display: grid;
+}
+
+.Image-container .Vers-Img {
+    width: auto;
+    height: auto;
+    display: grid;
+}
+
+/*icon credit : 
+monkik: tour
+ariefstudio : fleche
+dinosoftlabs : homme
+freepick : smartphone,fusée,pont
+*/
