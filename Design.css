@@ -60,8 +60,7 @@ h2 {
 }
 
 
-
-img {
+.Fleche img {
     width: 10rem;
     height: 7rem;
 }
@@ -224,6 +223,11 @@ img {
     width: auto;
     height: auto;
     display: grid;
+}
+
+img {
+    height: 25px;
+    width: 25px;
 }
 
 /*icon credit : 
