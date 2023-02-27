@@ -226,6 +226,11 @@ img {
     display: grid;
 }
 
+#cm,#m,#mm,#km {
+    height: 25px;
+    width:25px;
+}
+
 /*icon credit : 
 monkik: tour
 ariefstudio : fleche
