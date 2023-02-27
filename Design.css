@@ -65,6 +65,11 @@ h2 {
     height: 7rem;
 }
 
+#cm,#m,#mm,#km {
+    height: 25px;
+    width:25px;
+}
+
 .convertisseur input:focus {
     width: 35%;
     border: 3px solid #1f1e1e;
